@@ -1,0 +1,19 @@
+body{
+    background-color: teal;
+
+}
+h1{
+    color: greenyellow;
+}
+
+.avatar {
+    animation: scale-down;
+    animation-duration: 2s; /* You can adjust the duration as needed */
+  }
+  
+  @keyframes scale-down {
+    to {
+      transform: scale(0.3);
+    }
+  }
+  
